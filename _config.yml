@@ -1,0 +1,5 @@
+name: Blog
+title: A blog
+markdown: redcarpet
+highlighter: pygments
+baseurl: /blog
