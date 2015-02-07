@@ -1,5 +1,12 @@
-name: Blog
-title: A blog
+name: Trey Moore
 markdown: redcarpet
 highlighter: pygments
-baseurl: /blog
+permalink: /:title
+description: Blog of Software Developer Trey Moore.
+defaults:
+  -
+    scope:
+      path: "" 
+      type: "posts"
+    values:
+      layout: "default"
