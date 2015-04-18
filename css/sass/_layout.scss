@@ -1,0 +1,67 @@
+$sidebar-width:200px;
+
+.container{
+	max-width:1000px;
+}
+
+main{
+	margin:50px 0;
+}
+
+.main-article{
+	padding-left:$sidebar-width;
+}
+
+.main-sidebar{
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	width:$sidebar-width;
+	padding:50px 20px;
+	font-size:13px;
+	color:rgba(white,.6);
+	strong{
+		font-weight:400;
+		color:#fff;
+	}
+}
+
+// Sidebar colors
+.home .main-sidebar{
+  @include background(linear-gradient(120deg, $primary-gradient));
+}
+.blog .main-sidebar{
+  @include background(linear-gradient(120deg, $primary-gradient-blog));
+}
+.portfolio .main-sidebar{
+  @include background(linear-gradient(120deg, $primary-gradient-portfolio));
+}
+.about .main-sidebar{
+  @include background(linear-gradient(120deg, $primary-gradient-about));
+}
+.contact .main-sidebar{
+  @include background(linear-gradient(120deg, $primary-gradient-contact));
+}
+
+// Responsive styles
+@include responsive($big-break) {
+
+  // Hide sidebar
+  .main-sidebar{
+    position:absolute;
+    left:-$sidebar-width;
+    &.show-main-nav{
+      position:fixed;
+      left:0;
+    }
+  }
+
+  // Crush the container padding
+  .container{
+    max-width:1000px-$sidebar-width;
+    .main-article{
+      padding-left:0;
+    }
+  }
+}
