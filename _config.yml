@@ -5,9 +5,10 @@ relative_permalinks: true
 # Setup
 title:            Trey Moore
 tagline:          A Blog
-url:              http://getpoole.com
+description:	  A description
+url:              http://treymoore.me
 paginate:         1
-baseurl:          /
+baseurl:          http://dtmooreiv.github.io/blog/
 author:
   name:           Trey Moore
   url:            https://twitter.com/dtmooreiv
