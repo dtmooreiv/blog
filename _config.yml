@@ -1,12 +1,19 @@
-name: Trey Moore
-markdown: redcarpet
-highlighter: pygments
-permalink: /:title
-description: Blog of Software Developer Trey Moore.
-defaults:
-  -
-    scope:
-      path: "" 
-      type: "posts"
-    values:
-      layout: "default"
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Trey Moore
+tagline:          A Blog
+url:              http://getpoole.com
+paginate:         1
+baseurl:          /
+author:
+  name:           Trey Moore
+  url:            https://twitter.com/dtmooreiv
+  email:          dtmooreiv@gmail.com
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/dtmooreiv/blog
