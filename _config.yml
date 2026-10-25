@@ -6,9 +6,9 @@ relative_permalinks: true
 title:            Trey Moore
 tagline:          A Blog
 description:	  A description
-url:              http://treymoore.me
+url:              https://treymoore.me
 paginate:         1
-baseurl:          http://dtmooreiv.github.io/blog/
+baseurl:          /
 author:
   name:           Trey Moore
   url:            https://twitter.com/dtmooreiv
