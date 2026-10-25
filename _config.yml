@@ -1,6 +1,5 @@
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            Trey Moore
@@ -18,3 +17,7 @@ author:
 version:          1.0.0
 github:
   repo:           https://github.com/dtmooreiv/blog
+
+# Plugins
+plugins:
+  - jekyll-paginate
