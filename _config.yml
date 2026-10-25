@@ -7,7 +7,7 @@ tagline:          A Blog
 description:	  A description
 url:              https://treymoore.me
 paginate:         1
-baseurl:          /
+baseurl:          ""
 author:
   name:           Trey Moore
   url:            https://twitter.com/dtmooreiv
